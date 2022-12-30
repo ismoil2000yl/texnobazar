@@ -1,0 +1,14 @@
+
+.nav-item{
+    padding: 3px 10px;
+    margin: 0 3px;
+}
+.navbar-nav a{
+    color: white !important;
+    transition: all .2s ease-in-out;
+    text-decoration: none !important;
+    font-size: 17px;
+}
+a:hover{
+    color: #3875d1 !important;
+}

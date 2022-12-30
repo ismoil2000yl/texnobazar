@@ -1,0 +1,43 @@
+.main-footer{
+    width: 100%;
+    height: 350px;
+    background-color: #2C2C2C;
+    box-sizing: border-box;
+    padding: 4rem 2rem;
+    overflow-y: scroll;
+}
+
+.price-title{
+    color: white;
+}
+
+.price-icon{
+    width: 70px;
+    height: 30px;
+    margin: 5px 0;
+    border-radius: 8px;
+}
+
+.main-footer-logo{
+    height: 50px;
+}
+
+.phone-number{
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+
+.phone-number:hover{
+    color: red;
+}
+
+.ijtimoiy-tarmoq-icon{
+    width: 45px;
+    height: 45px;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+
+.ijtimoiy-tarmoq-icon:hover{
+    transform: scale(1.2);
+}

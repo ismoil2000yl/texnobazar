@@ -1,0 +1,97 @@
+.savatcha{
+    width: 100%;
+    height: 86vh;
+    overflow-y: scroll;
+}
+
+.savatcha-box{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 1.5rem;
+}
+
+.savatcha-box-left{
+    width: 65%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #EAEDED;
+    border-radius: 15px;
+
+}
+
+.savatcha-box-right{
+    width: 29%;
+    background-color: #EAEDED;
+    border-radius: 15px;
+}
+
+.save-box{
+    width: 250px;
+    height: 400px;
+    margin-left: 1rem;
+    box-sizing: border-box;
+    /* padding: 0 1.5rem; */
+    position: relative;
+    border-radius: 15px;
+    background-color: white;
+}
+
+.savatcha-item-icon{
+    width: 100%;
+    height: 55%;
+    padding: 1rem;
+    border-radius: 15px;
+}
+
+.savatcha-item-name{
+    padding: 0 2rem;
+}
+
+.savatcha-item-price{
+    width: 93%;
+    margin-left:.5rem;
+}
+
+.savatcha-item-deleted{
+    width: 93%;
+    margin: 10px 0 0 .5rem;
+}
+
+.savatcha-button{
+    position: absolute;
+    bottom: 1rem;
+}
+
+.savatcha-phone-input{
+    width: 79% !important;
+    margin: 1rem 2.3rem;
+}
+.savatcha-name-input{
+    width: 79% !important;
+    margin: 1.5rem 2.3rem 1rem 2.3rem;
+}
+
+.savatcha-buyurtma-button{
+    width: 79% !important;
+    margin: 1.5rem 2.3rem 1rem 2.3rem;
+}
+
+@media (min-width:0) and (max-width:768px){
+
+    .savatcha-box{
+        display: block;
+    }
+
+    .savatcha-box-left{
+        width: 100%;
+    
+    }
+    
+    .savatcha-box-right{
+        width: 100%;
+        padding: .3rem;
+        margin: 1rem 0;
+    }
+
+}
